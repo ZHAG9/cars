@@ -288,19 +288,19 @@ files {
 }
 
 -- cometold (Spawner ikke)
-data_file 'HANDLING_FILE' 'meta/cometold/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/cometold/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/cometold/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/cometold/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/cometold/vehiclelayouts.meta'
-
-files {
-  'meta/cometold/handling.meta',
-  'meta/cometold/vehicles.meta',
-  'meta/cometold/vehiclelayouts.meta',
-  'meta/cometold/carcols.meta',
-  'meta/cometold/carvariations.meta',
-}
+-- data_file 'HANDLING_FILE' 'meta/cometold/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/cometold/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/cometold/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/cometold/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/cometold/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/cometold/handling.meta',
+--   'meta/cometold/vehicles.meta',
+--   'meta/cometold/vehiclelayouts.meta',
+--   'meta/cometold/carcols.meta',
+--   'meta/cometold/carvariations.meta',
+-- }
 
 -- cycloneex0
 data_file 'HANDLING_FILE' 'meta/cycloneex0/handling.meta'
@@ -1172,20 +1172,20 @@ files {
   'meta/vstretch/carvariations.meta',
 }
 
--- VTCARBONIZ (kan ikke spawnes)
-data_file 'HANDLING_FILE' 'meta/VTCARBONIZ/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/VTCARBONIZ/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/VTCARBONIZ/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/VTCARBONIZ/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/VTCARBONIZ/vehiclelayouts.meta'
-
-files {
-  'meta/VTCARBONIZ/handling.meta',
-  'meta/VTCARBONIZ/vehicles.meta',
-  'meta/VTCARBONIZ/vehiclelayouts.meta',
-  'meta/VTCARBONIZ/carcols.meta',
-  'meta/VTCARBONIZ/carvariations.meta',
-}
+-- -- VTCARBONIZ (kan ikke spawnes)
+-- data_file 'HANDLING_FILE' 'meta/VTCARBONIZ/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/VTCARBONIZ/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/VTCARBONIZ/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/VTCARBONIZ/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/VTCARBONIZ/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/VTCARBONIZ/handling.meta',
+--   'meta/VTCARBONIZ/vehicles.meta',
+--   'meta/VTCARBONIZ/vehiclelayouts.meta',
+--   'meta/VTCARBONIZ/carcols.meta',
+--   'meta/VTCARBONIZ/carvariations.meta',
+-- }
 
 -- vulture (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/vulture/handling.meta'
