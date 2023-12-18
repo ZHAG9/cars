@@ -29,113 +29,143 @@ client_script 'names.lua'
 
 -- AUDIO FILES
 
---files {
---  'audioconfig/*.dat151',
---  'audioconfig/*.dat151.nametable',
---  'audioconfig/*.dat151.rel',
---  'audioconfig/*.dat10.nametable',
---  'audioconfig/*.dat10.rel',
---  'audioconfig/*.dat10',  
---  'audioconfig/*.dat54.nametable',
---  'audioconfig/*.dat54.rel',
---  'audioconfig/*.dat54',
---  'audioconfig/*.dat',
---  'sfx/**/*.awc',
---  'carcols_gen9.meta',
---  'carmodcols_gen9.meta'
---}
---
---data_file 'CARCOLS_GEN9_FILE' 'carcols_gen9.meta'
---data_file 'CARMODCOLS_GEN9_FILE' 'carmodcols_gen9.meta'
---
---data_file 'AUDIO_GAMEDATA' 'audioconfig/argento_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/argento_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_argento'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/asteropers_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/asteropers_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_asteropers'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_severo'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/severo_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/severo_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_rh7elegy'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/elegyrh7_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/elegyrh7_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_cypherct'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/cypherct_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/cypherct_sounds.dat'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/elegyx_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/elegyx_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_elegyx'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/buffaloh_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/buffaloh_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_gresleyh'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/oracxsle_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/oracxsle_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_oracxsle'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/gresleyh_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/gresleyh_sounds.dat'
---data_file 'AUDIO_SYNTHDATA' 'audioconfig/gresleyh_amp.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_gresleyh'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/sultan2c_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/sultan2c_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_sultan2c'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/sunrise_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/sunrise_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_sunrise'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/ventoso_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/ventoso_sounds.dat'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/supergts_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/supergts_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_supergts'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/stratumc_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/stratumc_sounds.dat'
---data_file 'AUDIO_SYNTHDATA' 'audioconfig/stratumc_amp.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_zircoflow'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/ferrarif140fe_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/ferrarif140fe_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_ferrarif140fe'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/sultanrsv8_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/sultanrsv8_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_v8sultanrs'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/ta023l539_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/ta023l539_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_ta023l539'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/taaud40v8_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/taaud40v8_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_taaud40v8'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/sfxtamworth_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/sfxtamworth_sounds.dat'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/n55b30t0_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/n55b30t0_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_n55b30t0'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/s55b30_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/s55b30_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_s55b30'
---data_file 'AUDIO_SYNTHDATA' 'audioconfig/m158huayra_amp.dat'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/m158huayra_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/m158huayra_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_m158huayra'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/sheavas_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/sheavas_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_sheavas'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/ta011mit4g63_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/ta011mit4g63_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_ta011mit4g63'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/ta006bmws65_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/ta006bmws65_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_ta006bmws65'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/cammedcharger_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/cammedcharger_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_cammedcharger'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/mercm177_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/mercm177_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_mercm177'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/tamustanggt50_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/tamustanggt50_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_tamustanggt50'
---data_file 'AUDIO_GAMEDATA' 'audioconfig/aq2jzgterace_game.dat'
---data_file 'AUDIO_SOUNDDATA' 'audioconfig/aq2jzgterace_sounds.dat'
---data_file 'AUDIO_WAVEPACK' 'sfx/dlc_aq2jzgterace'
+files {
+  'audioconfig/*.dat151',
+  'audioconfig/*.dat151.nametable',
+  'audioconfig/*.dat151.rel',
+  'audioconfig/*.dat10.nametable',
+  'audioconfig/*.dat10.rel',
+  'audioconfig/*.dat10',  
+  'audioconfig/*.dat54.nametable',
+  'audioconfig/*.dat54.rel',
+  'audioconfig/*.dat54',
+  'audioconfig/*.dat',
+  'sfx/**/*.awc',
+  'carcols_gen9.meta',
+  'carmodcols_gen9.meta'
+}
+
+-- data_file 'CARCOLS_GEN9_FILE' 'carcols_gen9.meta'
+-- data_file 'CARMODCOLS_GEN9_FILE' 'carmodcols_gen9.meta'
+
+data_file 'AUDIO_GAMEDATA' 'audioconfig/bati901_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/bati901_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_bati901'
+
+data_file 'AUDIO_GAMEDATA' 'audioconfig/castella_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/castella_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_castella'
+
+data_file 'AUDIO_GAMEDATA' 'audioconfig/matador_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/matador_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_matador'
+
+data_file 'AUDIO_GAMEDATA' 'audioconfig/nscout_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/nscout_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_nscout'
+
+data_file 'AUDIO_GAMEDATA' 'audioconfig/nspeedo_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/nspeedo_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_nspeedo'
+
+data_file 'AUDIO_GAMEDATA' 'audioconfig/tachyon_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/tachyon_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_tachyon'
+
+data_file 'AUDIO_GAMEDATA' 'audioconfig/thunderstruck_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/thunderstruck_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_thunderstruck'
+
+data_file 'AUDIO_GAMEDATA' 'audioconfig/vulture_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/vulture_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_vulture'
+
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/asteropers_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/asteropers_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_asteropers'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_severo'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/severo_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/severo_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_rh7elegy'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/elegyrh7_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/elegyrh7_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_cypherct'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/cypherct_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/cypherct_sounds.dat'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/elegyx_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/elegyx_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_elegyx'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/buffaloh_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/buffaloh_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_gresleyh'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/oracxsle_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/oracxsle_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_oracxsle'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/gresleyh_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/gresleyh_sounds.dat'
+-- data_file 'AUDIO_SYNTHDATA' 'audioconfig/gresleyh_amp.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_gresleyh'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/sultan2c_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/sultan2c_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_sultan2c'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/sunrise_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/sunrise_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_sunrise'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/ventoso_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/ventoso_sounds.dat'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/supergts_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/supergts_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_supergts'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/stratumc_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/stratumc_sounds.dat'
+-- data_file 'AUDIO_SYNTHDATA' 'audioconfig/stratumc_amp.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_zircoflow'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/ferrarif140fe_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/ferrarif140fe_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_ferrarif140fe'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/sultanrsv8_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/sultanrsv8_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_v8sultanrs'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/ta023l539_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/ta023l539_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_ta023l539'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/taaud40v8_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/taaud40v8_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_taaud40v8'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/sfxtamworth_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/sfxtamworth_sounds.dat'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/n55b30t0_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/n55b30t0_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_n55b30t0'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/s55b30_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/s55b30_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_s55b30'
+-- data_file 'AUDIO_SYNTHDATA' 'audioconfig/m158huayra_amp.dat'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/m158huayra_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/m158huayra_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_m158huayra'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/sheavas_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/sheavas_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_sheavas'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/ta011mit4g63_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/ta011mit4g63_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_ta011mit4g63'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/ta006bmws65_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/ta006bmws65_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_ta006bmws65'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/cammedcharger_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/cammedcharger_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_cammedcharger'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/mercm177_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/mercm177_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_mercm177'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/tamustanggt50_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/tamustanggt50_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_tamustanggt50'
+-- data_file 'AUDIO_GAMEDATA' 'audioconfig/aq2jzgterace_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'audioconfig/aq2jzgterace_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'sfx/dlc_aq2jzgterace'--
+
 
 -- atlas
 data_file 'HANDLING_FILE' 'meta/atlas/handling.meta'
@@ -167,7 +197,7 @@ files {
   'meta/audace/carvariations.meta',
 }
 
--- bati901
+-- bati901 (Har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/bati901/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/bati901/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/bati901/carcols.meta'
@@ -227,7 +257,7 @@ files {
   'meta/CARUMBA/carvariations.meta',
 }
 
--- castella
+-- castella (Har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/castella/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/castella/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/castella/carcols.meta'
@@ -257,7 +287,7 @@ files {
   'meta/cheetahrod2/carvariations.meta',
 }
 
--- cometold
+-- cometold (Spawner ikke)
 data_file 'HANDLING_FILE' 'meta/cometold/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/cometold/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/cometold/carcols.meta'
@@ -287,7 +317,7 @@ files {
   'meta/cycloneex0/carvariations.meta',
 }
 
--- deimos
+-- deimos (Har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/deimos/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/deimos/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/deimos/carcols.meta'
@@ -302,7 +332,7 @@ files {
   'meta/deimos/carvariations.meta',
 }
 
--- dilettantedx
+-- dilettantedx (Har underligt cam)
 data_file 'HANDLING_FILE' 'meta/dilettantedx/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/dilettantedx/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/dilettantedx/carcols.meta'
@@ -362,20 +392,20 @@ files {
   'meta/estancia/carvariations.meta',
 }
 
--- euphoria
-data_file 'HANDLING_FILE' 'meta/euphoria/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/euphoria/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/euphoria/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/euphoria/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/euphoria/vehiclelayouts.meta'
-
-files {
-  'meta/euphoria/handling.meta',
-  'meta/euphoria/vehicles.meta',
-  'meta/euphoria/vehiclelayouts.meta',
-  'meta/euphoria/carcols.meta',
-  'meta/euphoria/carvariations.meta',
-}
+-- euphoria (Crasher spillere)
+-- data_file 'HANDLING_FILE' 'meta/euphoria/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/euphoria/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/euphoria/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/euphoria/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/euphoria/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/euphoria/handling.meta',
+--   'meta/euphoria/vehicles.meta',
+--   'meta/euphoria/vehiclelayouts.meta',
+--   'meta/euphoria/carcols.meta',
+--   'meta/euphoria/carvariations.meta',
+-- }
 
 -- eva
 data_file 'HANDLING_FILE' 'meta/eva/handling.meta'
@@ -392,7 +422,7 @@ files {
   'meta/eva/carvariations.meta',
 }
 
--- glendalelimo
+-- glendalelimo (Har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/glendalelimo/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/glendalelimo/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/glendalelimo/carcols.meta'
@@ -452,7 +482,7 @@ files {
   'meta/hotkniferod/carvariations.meta',
 }
 
--- howler
+-- howler (har ikke lys)
 data_file 'HANDLING_FILE' 'meta/howler/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/howler/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/howler/carcols.meta'
@@ -467,7 +497,7 @@ files {
   'meta/howler/carvariations.meta',
 }
 
--- infernussr
+-- infernussr (har ikke lys)
 data_file 'HANDLING_FILE' 'meta/infernussr/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/infernussr/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/infernussr/carcols.meta'
@@ -542,22 +572,22 @@ files {
   'meta/JUBILEE8/carvariations.meta',
 }
 
--- kriegerc
-data_file 'HANDLING_FILE' 'meta/kriegerc/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/kriegerc/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/kriegerc/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/kriegerc/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/kriegerc/vehiclelayouts.meta'
+-- kriegerc (crasher)
+-- data_file 'HANDLING_FILE' 'meta/kriegerc/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/kriegerc/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/kriegerc/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/kriegerc/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/kriegerc/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/kriegerc/handling.meta',
+--   'meta/kriegerc/vehicles.meta',
+--   'meta/kriegerc/vehiclelayouts.meta',
+--   'meta/kriegerc/carcols.meta',
+--   'meta/kriegerc/carvariations.meta',
+-- }
 
-files {
-  'meta/kriegerc/handling.meta',
-  'meta/kriegerc/vehicles.meta',
-  'meta/kriegerc/vehiclelayouts.meta',
-  'meta/kriegerc/carcols.meta',
-  'meta/kriegerc/carvariations.meta',
-}
-
--- limo
+-- limo (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/limo/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/limo/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/limo/carcols.meta'
@@ -572,7 +602,7 @@ files {
   'meta/limo/carvariations.meta',
 }
 
--- mark1
+-- mark1 (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/mark1/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/mark1/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/mark1/carcols.meta'
@@ -587,7 +617,7 @@ files {
   'meta/mark1/carvariations.meta',
 }
 
--- matador
+-- matador (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/matador/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/matador/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/matador/carcols.meta'
@@ -602,20 +632,20 @@ files {
   'meta/matador/carvariations.meta',
 }
 
--- mf1
-data_file 'HANDLING_FILE' 'meta/mf1/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/mf1/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/mf1/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/mf1/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/mf1/vehiclelayouts.meta'
-
-files {
-  'meta/mf1/handling.meta',
-  'meta/mf1/vehicles.meta',
-  'meta/mf1/vehiclelayouts.meta',
-  'meta/mf1/carcols.meta',
-  'meta/mf1/carvariations.meta',
-}
+-- mf1 (Crasher)
+-- data_file 'HANDLING_FILE' 'meta/mf1/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/mf1/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/mf1/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/mf1/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/mf1/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/mf1/handling.meta',
+--   'meta/mf1/vehicles.meta',
+--   'meta/mf1/vehiclelayouts.meta',
+--   'meta/mf1/carcols.meta',
+--   'meta/mf1/carvariations.meta',
+-- }
 
 -- morningstar
 data_file 'HANDLING_FILE' 'meta/morningstar/handling.meta'
@@ -632,22 +662,22 @@ files {
   'meta/morningstar/carvariations.meta',
 }
 
--- nerops1
-data_file 'HANDLING_FILE' 'meta/nerops1/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/nerops1/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/nerops1/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/nerops1/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/nerops1/vehiclelayouts.meta'
+-- nerops1 (crasher)
+-- data_file 'HANDLING_FILE' 'meta/nerops1/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/nerops1/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/nerops1/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/nerops1/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/nerops1/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/nerops1/handling.meta',
+--   'meta/nerops1/vehicles.meta',
+--   'meta/nerops1/vehiclelayouts.meta',
+--   'meta/nerops1/carcols.meta',
+--   'meta/nerops1/carvariations.meta',
+-- }
 
-files {
-  'meta/nerops1/handling.meta',
-  'meta/nerops1/vehicles.meta',
-  'meta/nerops1/vehiclelayouts.meta',
-  'meta/nerops1/carcols.meta',
-  'meta/nerops1/carvariations.meta',
-}
-
--- nscout
+-- nscout (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/nscout/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/nscout/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/nscout/carcols.meta'
@@ -662,7 +692,7 @@ files {
   'meta/nscout/carvariations.meta',
 }
 
--- NSPEEDO
+-- NSPEEDO (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/NSPEEDO/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/NSPEEDO/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/NSPEEDO/carcols.meta'
@@ -692,20 +722,20 @@ files {
   'meta/osirisr/carvariations.meta',
 }
 
--- p711
-data_file 'HANDLING_FILE' 'meta/p711/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/p711/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/p711/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/p711/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/p711/vehiclelayouts.meta'
-
-files {
-  'meta/p711/handling.meta',
-  'meta/p711/vehicles.meta',
-  'meta/p711/vehiclelayouts.meta',
-  'meta/p711/carcols.meta',
-  'meta/p711/carvariations.meta',
-}
+-- p711 (crasher)
+-- data_file 'HANDLING_FILE' 'meta/p711/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/p711/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/p711/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/p711/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/p711/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/p711/handling.meta',
+--   'meta/p711/vehicles.meta',
+--   'meta/p711/vehiclelayouts.meta',
+--   'meta/p711/carcols.meta',
+--   'meta/p711/carvariations.meta',
+-- }
 
 -- pakunek
 data_file 'HANDLING_FILE' 'meta/pakunek/handling.meta'
@@ -737,7 +767,7 @@ files {
   'meta/paragono/carvariations.meta',
 }
 
--- picadorexr
+-- picadorexr (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/picadorexr/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/picadorexr/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/picadorexr/carcols.meta'
@@ -797,35 +827,35 @@ files {
   'meta/proff/carvariations.meta',
 }
 
--- r300
-data_file 'HANDLING_FILE' 'meta/r300/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/r300/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/r300/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/r300/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/r300/vehiclelayouts.meta'
+-- r300 (kan ikke spawnes)
+-- data_file 'HANDLING_FILE' 'meta/r300/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/r300/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/r300/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/r300/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/r300/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/r300/handling.meta',
+--   'meta/r300/vehicles.meta',
+--   'meta/r300/vehiclelayouts.meta',
+--   'meta/r300/carcols.meta',
+--   'meta/r300/carvariations.meta',
+-- }
 
-files {
-  'meta/r300/handling.meta',
-  'meta/r300/vehicles.meta',
-  'meta/r300/vehiclelayouts.meta',
-  'meta/r300/carcols.meta',
-  'meta/r300/carvariations.meta',
-}
-
--- raidenz
-data_file 'HANDLING_FILE' 'meta/raidenz/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/raidenz/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/raidenz/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/raidenz/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/raidenz/vehiclelayouts.meta'
-
-files {
-  'meta/raidenz/handling.meta',
-  'meta/raidenz/vehicles.meta',
-  'meta/raidenz/vehiclelayouts.meta',
-  'meta/raidenz/carcols.meta',
-  'meta/raidenz/carvariations.meta',
-}
+-- raidenz (kan ikke spawnes)
+-- data_file 'HANDLING_FILE' 'meta/raidenz/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/raidenz/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/raidenz/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/raidenz/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/raidenz/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/raidenz/handling.meta',
+--   'meta/raidenz/vehicles.meta',
+--   'meta/raidenz/vehiclelayouts.meta',
+--   'meta/raidenz/carcols.meta',
+--   'meta/raidenz/carvariations.meta',
+-- }
 
 -- rebelutility
 data_file 'HANDLING_FILE' 'meta/rebelutility/handling.meta'
@@ -962,7 +992,7 @@ files {
   'meta/superd3/carvariations.meta',
 }
 
--- tachyon
+-- tachyon (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/tachyon/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/tachyon/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/tachyon/carcols.meta'
@@ -1022,7 +1052,7 @@ files {
   'meta/terl300/carvariations.meta',
 }
 
--- thunderstruck
+-- thunderstruck (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/thunderstruck/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/thunderstruck/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/thunderstruck/carcols.meta'
@@ -1037,22 +1067,22 @@ files {
   'meta/thunderstruck/carvariations.meta',
 }
 
--- trailw
-data_file 'HANDLING_FILE' 'meta/trailw/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/trailw/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/trailw/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/trailw/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/trailw/vehiclelayouts.meta'
+-- trailw (crasher)
+-- data_file 'HANDLING_FILE' 'meta/trailw/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/trailw/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/trailw/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/trailw/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/trailw/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/trailw/handling.meta',
+--   'meta/trailw/vehicles.meta',
+--   'meta/trailw/vehiclelayouts.meta',
+--   'meta/trailw/carcols.meta',
+--   'meta/trailw/carvariations.meta',
+-- }
 
-files {
-  'meta/trailw/handling.meta',
-  'meta/trailw/vehicles.meta',
-  'meta/trailw/vehiclelayouts.meta',
-  'meta/trailw/carcols.meta',
-  'meta/trailw/carvariations.meta',
-}
-
--- turismo2lm
+-- turismo2lm (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/turismo2lm/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/turismo2lm/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/turismo2lm/carcols.meta'
@@ -1082,20 +1112,20 @@ files {
   'meta/turismoo/carvariations.meta',
 }
 
--- type1
-data_file 'HANDLING_FILE' 'meta/type1/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/type1/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/type1/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/type1/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/type1/vehiclelayouts.meta'
-
-files {
-  'meta/type1/handling.meta',
-  'meta/type1/vehicles.meta',
-  'meta/type1/vehiclelayouts.meta',
-  'meta/type1/carcols.meta',
-  'meta/type1/carvariations.meta',
-}
+-- type1 (kan ikke spawnes)
+-- data_file 'HANDLING_FILE' 'meta/type1/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/type1/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/type1/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/type1/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/type1/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/type1/handling.meta',
+--   'meta/type1/vehicles.meta',
+--   'meta/type1/vehiclelayouts.meta',
+--   'meta/type1/carcols.meta',
+--   'meta/type1/carvariations.meta',
+-- }
 
 -- vertice
 data_file 'HANDLING_FILE' 'meta/vertice/handling.meta'
@@ -1112,22 +1142,22 @@ files {
   'meta/vertice/carvariations.meta',
 }
 
--- vetok
-data_file 'HANDLING_FILE' 'meta/vetok/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'meta/vetok/vehicles.meta'
-data_file 'CARCOLS_FILE' 'meta/vetok/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'meta/vetok/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'meta/vetok/vehiclelayouts.meta'
+-- vetok (crasher)
+-- data_file 'HANDLING_FILE' 'meta/vetok/handling.meta'
+-- data_file 'VEHICLE_METADATA_FILE' 'meta/vetok/vehicles.meta'
+-- data_file 'CARCOLS_FILE' 'meta/vetok/carcols.meta'
+-- data_file 'VEHICLE_VARIATION_FILE' 'meta/vetok/carvariations.meta'
+-- data_file 'VEHICLE_LAYOUTS_FILE' 'meta/vetok/vehiclelayouts.meta'
+-- 
+-- files {
+--   'meta/vetok/handling.meta',
+--   'meta/vetok/vehicles.meta',
+--   'meta/vetok/vehiclelayouts.meta',
+--   'meta/vetok/carcols.meta',
+--   'meta/vetok/carvariations.meta',
+-- }
 
-files {
-  'meta/vetok/handling.meta',
-  'meta/vetok/vehicles.meta',
-  'meta/vetok/vehiclelayouts.meta',
-  'meta/vetok/carcols.meta',
-  'meta/vetok/carvariations.meta',
-}
-
--- vstretch
+-- vstretch (husk at ændre flag skin) (kan ikke spawnes)
 data_file 'HANDLING_FILE' 'meta/vstretch/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/vstretch/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/vstretch/carcols.meta'
@@ -1142,7 +1172,7 @@ files {
   'meta/vstretch/carvariations.meta',
 }
 
--- VTCARBONIZ
+-- VTCARBONIZ (kan ikke spawnes)
 data_file 'HANDLING_FILE' 'meta/VTCARBONIZ/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/VTCARBONIZ/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/VTCARBONIZ/carcols.meta'
@@ -1157,7 +1187,7 @@ files {
   'meta/VTCARBONIZ/carvariations.meta',
 }
 
--- vulture
+-- vulture (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/vulture/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/vulture/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/vulture/carcols.meta'
@@ -1172,7 +1202,7 @@ files {
   'meta/vulture/carvariations.meta',
 }
 
--- zodiac
+-- zodiac (har ikke lyd)
 data_file 'HANDLING_FILE' 'meta/zodiac/handling.meta'
 data_file 'VEHICLE_METADATA_FILE' 'meta/zodiac/vehicles.meta'
 data_file 'CARCOLS_FILE' 'meta/zodiac/carcols.meta'
